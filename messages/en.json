@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "title": "SaudinTech — Business Software & Websites, Saudi Arabia",
+    "titleTemplate": "%s | SaudinTech",
+    "description": "Custom websites, e-commerce, POS, inventory, CRM & ERP systems for businesses across Saudi Arabia. Bilingual Arabic & English, based in Riyadh.",
+    "keywords": "software agency Saudi Arabia, custom website Riyadh, web development Saudi Arabia, POS system Saudi, inventory system, CRM Saudi Arabia, ERP Saudi, e-commerce Saudi, business software Riyadh",
+    "ogAlt": "SaudinTech — Business Software & Websites for Saudi Businesses"
+  },
+  "nav": {
+    "services": "Services",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "process": "Our Process",
+    "showcase": "What We Build",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Book a Free Consultation",
+    "switchLocale": "ar",
+    "switchLabel": "العربية",
+    "ariaMain": "Main navigation",
+    "ariaHome": "SaudinTech Home",
+    "ariaToggle": "Toggle navigation menu",
+    "ariaSwitch": "التبديل إلى العربية",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "badge": "Software Agency — Riyadh, Saudi Arabia",
+    "headline1": "Custom Websites &",
+    "headlineAccent": "Business Software",
+    "headline2": "for Saudi Businesses",
+    "sub": "We help local businesses digitize their operations through custom websites, software systems, and automation solutions designed for growth.",
+    "ctaPrimary": "Book a Free Consultation",
+    "ctaSecondary": "View Solutions",
+    "badges": [
+      { "title": "Free Consultation", "sub": "No commitment to start" },
+      { "title": "Fixed-Price Quotes", "sub": "Agreed before we begin" },
+      { "title": "You Own the Code", "sub": "Registered in your name" }
+    ],
+    "scroll": "Scroll"
+  },
+  "mock": {
+    "windowTitle": "Business Dashboard",
+    "overview": "Overview",
+    "thisMonth": "This Month",
+    "growth": "+18% ↑",
+    "revenue": "Revenue",
+    "customers": "Customers",
+    "orders": "Orders",
+    "revenueVal": "SAR 84,200",
+    "customersVal": "1,284",
+    "ordersVal": "342",
+    "pos": "POS System",
+    "posSub": "Transaction #1042",
+    "posAmount": "SAR 180",
+    "inv": "Inventory",
+    "invSub": "248 items in stock",
+    "invBadge": "Low Alert",
+    "phoneTitle": "SaudinTech App",
+    "phoneVal": "SAR 12,450",
+    "phoneTrend": "↑ Today's Sales"
+  },
+  "trust": {
+    "tag": "Why Choose Us",
+    "title": "Why Businesses Choose Us",
+    "subtitle": "We combine technical expertise with deep business understanding to deliver software that actually works for your operations.",
+    "aria": "Why businesses choose us",
+    "cards": [
+      { "title": "Custom-Built Solutions", "text": "Every system is built specifically for your business needs — no generic templates or one-size-fits-all software." },
+      { "title": "Arabic & English Support", "text": "Full bilingual support — our systems work seamlessly in both Arabic and English for all your users." },
+      { "title": "Fast Delivery", "text": "We deliver working software quickly using modern development practices and agile methodologies." },
+      { "title": "Long-Term Support", "text": "We don't disappear after launch. Ongoing maintenance, updates, and support keep your business running smoothly." },
+      { "title": "Scalable Architecture", "text": "Built to grow with you — from a single location to a multi-branch operation without rebuilding from scratch." },
+      { "title": "Business-Focused Approach", "text": "We understand local business operations deeply — from Saudi compliance to customer behavior and market needs." }
+    ]
+  },
+  "services": {
+    "tag": "What We Build",
+    "title": "Our Services",
+    "aria": "Services we offer",
+    "items": [
+      { "title": "Business Websites", "text": "Professional, fast-loading websites that represent your brand and convert visitors into customers." },
+      { "title": "E-Commerce Stores", "text": "Complete online stores with product management, payments, and order tracking for your customers." },
+      { "title": "Custom Web Applications", "text": "Complex business logic and workflows transformed into intuitive web-based software." },
+      { "title": "Inventory & POS Systems", "text": "Real-time stock tracking, barcode scanning, and point-of-sale terminals that unify your operations." },
+      { "title": "CRM & ERP Solutions", "text": "Customer relationship management and enterprise resource planning to connect every part of your business." },
+      { "title": "Mobile Applications", "text": "Native iOS and Android apps that extend your business directly into your customers' hands." },
+      { "title": "Business Automation", "text": "Automated workflows, reporting, notifications, and data processing to save time and eliminate errors." }
+    ],
+    "screens": {
+      "urlBar": "your-business.sa",
+      "ecomAdd": "Add",
+      "ecomTotal": "Total",
+      "ecomTotalVal": "SAR 465",
+      "ecomCheckout": "Checkout →",
+      "waRevenue": "Revenue",
+      "waRevenueVal": "SAR 84K",
+      "waUsers": "Users",
+      "waUsersVal": "1,284",
+      "waUptime": "Uptime",
+      "waUptimeVal": "98%",
+      "invTitle": "Inventory Management",
+      "invItems": "Items",
+      "invLow": "Low Stock",
+      "invValue": "Value",
+      "invValueVal": "SAR 142K",
+      "invColProduct": "Product",
+      "invColSku": "SKU",
+      "invColStock": "Stock",
+      "invColStatus": "Status",
+      "invRows": [
+        { "name": "Arabica Coffee 1kg", "sku": "COF-001", "stock": "142", "ok": true },
+        { "name": "Oat Milk 1L", "sku": "MLK-003", "stock": "8", "ok": false },
+        { "name": "Paper Cups (100)", "sku": "CUP-010", "stock": "320", "ok": true },
+        { "name": "Vanilla Syrup", "sku": "SYR-007", "stock": "3", "ok": false }
+      ],
+      "badgeOk": "In Stock",
+      "badgeLow": "Low Stock",
+      "crmTitle": "Sales Pipeline",
+      "crmTotal": "Total:",
+      "crmTotalVal": "SAR 284,000",
+      "crmCols": [
+        { "name": "Lead", "count": "4", "cards": [ { "co": "Al-Noor Cafe", "amt": "SAR 12K" }, { "co": "Rashid Retail", "amt": "SAR 8K" } ] },
+        { "name": "Qualified", "count": "3", "cards": [ { "co": "City Clinic", "amt": "SAR 45K" }, { "co": "Flex Gym", "amt": "SAR 22K" } ] },
+        { "name": "Proposal", "count": "2", "cards": [ { "co": "Moon Tailoring", "amt": "SAR 18K" } ] },
+        { "name": "Won", "count": "6", "cards": [ { "co": "Star Restaurant", "amt": "SAR 55K" }, { "co": "Al-Faisal Group", "amt": "SAR 90K" } ] }
+      ],
+      "appTitle": "SaudinTech Business",
+      "appRevenueLabel": "Today's Revenue",
+      "appRevenueVal": "SAR 12,450",
+      "appTrend": "↑ 18% from yesterday",
+      "appOrders": "Orders",
+      "appInventory": "Inventory",
+      "appCustomers": "Customers",
+      "autoTitle": "Automation Workflows",
+      "autoBadge": "3 Active",
+      "autoFlows": [
+        ["New Order", "Update Inventory", "Send Receipt", "✓ Done"],
+        ["Low Stock Alert", "Notify Manager", "Create PO Draft", "✓ Done"],
+        ["Daily 8:00 AM", "Generate Report", "Email to Owner", "✓ Done"]
+      ],
+      "autoMetrics": [
+        { "value": "2,140", "label": "Runs this month" },
+        { "value": "84h", "label": "Time saved" },
+        { "value": "0", "label": "Errors" }
+      ]
+    }
+  },
+  "industries": {
+    "tag": "Industries",
+    "title": "Industries We Serve",
+    "subtitle": "We understand how local businesses operate — and we build software around your industry's real workflows.",
+    "aria": "Industries we serve",
+    "cards": [
+      { "title": "Cafes", "text": "Order management, menu systems, loyalty programs, and customer tracking.", "tags": ["POS System", "Online Ordering", "Loyalty App"] },
+      { "title": "Restaurants", "text": "Table management, kitchen display, inventory, and delivery tracking systems.", "tags": ["Restaurant POS", "Kitchen Display", "Delivery Mgmt"] },
+      { "title": "Retail Stores", "text": "Inventory management, barcode scanning, supplier portals, and sales analytics.", "tags": ["Inventory System", "Sales Analytics", "E-Commerce"] },
+      { "title": "Tailoring Businesses", "text": "Order tracking, measurement records, customer profiles, and deadline management.", "tags": ["Order Tracking", "Customer Records", "Delivery Alerts"] },
+      { "title": "Clinics", "text": "Patient management, appointment scheduling, medical records, and billing systems.", "tags": ["Patient Records", "Appointments", "Billing System"] },
+      { "title": "Gyms & Fitness", "text": "Membership management, class scheduling, payment tracking, and member app.", "tags": ["Memberships", "Class Booking", "Member Portal"] },
+      { "title": "Service Companies", "text": "Job management, technician dispatch, invoicing, and customer communication portals.", "tags": ["Job Tracking", "Invoicing", "CRM System"] },
+      { "title": "Educational Centers", "text": "Student enrollment, course management, attendance tracking, and parent portals.", "tags": ["Student Records", "Attendance", "Parent Portal"] }
+    ]
+  },
+  "solutions": {
+    "tag": "Featured Solutions",
+    "title": "Built to Solve Real Business Problems",
+    "subtitle": "Each solution is designed around a specific business challenge — not as a generic product, but as a system that fits the way you actually work.",
+    "aria": "Featured solutions",
+    "problemLabel": "Problem",
+    "solutionLabel": "Solution",
+    "impactLabel": "What It Delivers",
+    "cta": "Learn More →",
+    "cards": [
+      { "badge": "Inventory", "title": "Inventory Management System", "problem": "Manual stock counts, lost products, and no visibility on what's running low.", "solution": "Real-time digital inventory with barcode scanning, supplier orders, and automated alerts.", "impact": "Less stock loss · No more manual counting" },
+      { "badge": "F&B", "title": "Restaurant Management Dashboard", "problem": "Disorganized orders, kitchen confusion, and no insight into peak hours or best sellers.", "solution": "Integrated POS, kitchen display system, and analytics dashboard in one platform.", "impact": "Faster order fulfillment · Live sales analytics" },
+      { "badge": "Tailoring", "title": "Tailoring Management Software", "problem": "Paper measurements lost, deadlines missed, and customers frustrated with no order updates.", "solution": "Digital customer profiles with measurements, order status tracking, and WhatsApp notifications.", "impact": "Deadlines under control · Customers kept informed" },
+      { "badge": "CRM", "title": "Customer Relationship Management", "problem": "Leads falling through the cracks, no follow-up system, and lost sales opportunities.", "solution": "Centralized CRM with sales pipeline, automated reminders, and customer interaction history.", "impact": "Every lead followed up · Full sales visibility" },
+      { "badge": "ERP", "title": "ERP Business Solutions", "problem": "Disconnected tools across departments, manual reporting, and no unified business overview.", "solution": "Unified ERP connecting finance, inventory, HR, and operations in one platform.", "impact": "Full business visibility · Automated reporting" }
+    ]
+  },
+  "process": {
+    "tag": "How We Work",
+    "title": "Our Process",
+    "aria": "Our development process",
+    "steps": [
+      { "title": "Discover", "text": "We sit down with you to understand your business, challenges, and goals. No assumptions — only listening." },
+      { "title": "Design", "text": "We create prototypes so you can see exactly what your system will look like before we write a single line of code." },
+      { "title": "Develop", "text": "Our engineers build your system using modern, reliable technology with progress updates throughout." },
+      { "title": "Launch", "text": "We handle deployment, training, and go-live — making sure you and your team are confident from day one." },
+      { "title": "Support", "text": "We stay with you long-term — fixing issues, adding features, and scaling your system as your business grows." }
+    ]
+  },
+  "showcase": {
+    "tag": "What We Build",
+    "title": "Solutions We Can Build for You",
+    "subtitle": "Example systems designed around the most common challenges Saudi businesses face — each one tailored to your operation before we build it.",
+    "aria": "Example solutions",
+    "challengeLabel": "The Challenge",
+    "buildLabel": "What We Build",
+    "cards": [
+      {
+        "tag": "Cafe",
+        "title": "Cafe Website & Online Ordering",
+        "challenge": "No online presence, relying entirely on walk-in customers.",
+        "build": "A branded website with online ordering, menu management, and customer loyalty built in.",
+        "metrics": [
+          { "num": "2–4", "text": "Weeks typical delivery" },
+          { "num": "AR/EN", "text": "Fully bilingual" }
+        ]
+      },
+      {
+        "tag": "Retail",
+        "title": "Retail Inventory & POS System",
+        "challenge": "Manual inventory on spreadsheets causing stockouts and overordering.",
+        "build": "Real-time inventory with barcode scanning, POS terminals, and automatic low-stock alerts.",
+        "metrics": [
+          { "num": "Live", "text": "Stock visibility" },
+          { "num": "1", "text": "System for all branches" }
+        ]
+      },
+      {
+        "tag": "Clinic",
+        "title": "Clinic Patient Management",
+        "challenge": "Paper records, double-booked appointments, and lost patient history.",
+        "build": "Digital patient records, conflict-free scheduling, and automated appointment reminders.",
+        "metrics": [
+          { "num": "100%", "text": "Digital records" },
+          { "num": "0", "text": "Booking conflicts by design" }
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "tag": "The Difference",
+    "title": "Your Business Before & After",
+    "subtitle": "See what changes when you replace manual processes with smart business software.",
+    "aria": "Before and after",
+    "beforeTitle": "Without a System",
+    "afterTitle": "With SaudinTech",
+    "before": [
+      "Excel files and paper records",
+      "Manual inventory counting",
+      "No visibility on sales data",
+      "Missed follow-ups and lost leads",
+      "Information scattered everywhere",
+      "Time wasted on repetitive tasks"
+    ],
+    "after": [
+      "Centralized digital systems",
+      "Automated real-time tracking",
+      "Live dashboards and reports",
+      "Automated follow-ups and alerts",
+      "Everything in one place",
+      "Hours saved every single week"
+    ]
+  },
+  "commitments": {
+    "tag": "Our Promise",
+    "title": "What Working With Us Looks Like",
+    "subtitle": "We're a new agency earning trust the honest way — through clear commitments we put in writing, not borrowed testimonials.",
+    "aria": "Our commitments",
+    "cards": [
+      { "title": "Talk Directly to the Builders", "text": "No account managers or middlemen — you work directly with the engineers designing and building your system." },
+      { "title": "Fixed, Transparent Proposals", "text": "A detailed written scope and fixed price before you commit a single riyal. No surprise costs mid-project." },
+      { "title": "You Own Everything", "text": "Your code, your data, your accounts — all registered in your name and handed over fully documented." },
+      { "title": "Progress You Can See", "text": "Weekly updates with working previews, so you watch your system take shape instead of waiting in the dark." },
+      { "title": "Bilingual by Default", "text": "Every system ships with full Arabic and English support, including proper right-to-left layouts." },
+      { "title": "No Lock-In, Ever", "text": "Documented handover and clean code mean any developer can take over. We keep your business by earning it." }
+    ]
+  },
+  "about": {
+    "tag": "About Us",
+    "title1": "Built by Developers.",
+    "title2": "Driven by Business Growth.",
+    "aria": "About SaudinTech",
+    "paragraphs": [
+      "We started SaudinTech with one mission: to make professional software solutions accessible to businesses of every size in Saudi Arabia.",
+      "Our founding team brings together deep software engineering expertise and hands-on business development experience. That combination is rare — and it's exactly what makes the difference when building systems that need to work in real business environments.",
+      "We don't just write code. We understand operations, customers, and the challenges that come with running a business in Saudi Arabia."
+    ],
+    "founder1": "Software Engineering",
+    "founder2": "Business Development",
+    "values": ["Business-first thinking", "Engineering excellence", "Long-term partnerships", "Saudi market expertise"],
+    "pillars": [
+      { "title": "Our Mission", "text": "Make enterprise-quality software accessible and affordable for every Saudi business." },
+      { "title": "Our Vision", "text": "A Saudi Arabia where every small business competes with the tools of enterprise companies." }
+    ]
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Common Questions",
+    "subtitle": "Everything you need to know before starting your project with us.",
+    "aria": "Frequently asked questions",
+    "items": [
+      { "q": "How much does a website or software cost?", "a": "Every project is different and we price based on complexity and scope. A basic business website starts from SAR 3,000 while a full inventory or POS system starts from SAR 8,000. We offer flexible payment options and always provide a detailed proposal before you commit." },
+      { "q": "How long does development take?", "a": "A business website typically takes 2–4 weeks. A custom system such as inventory management or CRM takes 6–12 weeks depending on complexity. We provide a detailed timeline upfront and keep you updated throughout the project." },
+      { "q": "Do you provide ongoing support after launch?", "a": "Absolutely. We offer monthly maintenance and support packages to keep your system running smoothly, secure, and up to date. We don't disappear after delivery — long-term support is part of every engagement." },
+      { "q": "Can the software be customized or updated later?", "a": "Yes — this is one of the key advantages of custom software. Because we build it specifically for you, adding features, changing workflows, or scaling to new branches is entirely possible. Your system evolves with your business." },
+      { "q": "Do you support Arabic language in your systems?", "a": "Yes, fully. All our systems are built with both Arabic and English support including proper RTL layout for Arabic. Your staff can use the system in their preferred language without any limitations." },
+      { "q": "Can you build something specific to my industry?", "a": "That's what we do best. We don't sell generic software — we build systems designed for your specific type of business, your workflows, your team, and your customers. Book a free consultation and we'll discuss exactly what would work for you." }
+    ]
+  },
+  "cta": {
+    "badge": "Ready to Get Started?",
+    "title1": "Let's Build Something That",
+    "titleAccent": "Helps Your Business Grow",
+    "sub": "Whether you need a website, inventory system, CRM, or custom business software — we're ready to help you build something that actually works for your business.",
+    "aria": "Get in touch",
+    "emailBtn": "Book a Free Consultation",
+    "whatsappBtn": "Contact on WhatsApp",
+    "trust": ["Free consultation call", "No commitment required", "Response within 24 hours"]
+  },
+  "contactForm": {
+    "heading": "Tell us about your project",
+    "name": "Your name",
+    "namePlaceholder": "e.g. Abdullah",
+    "business": "Business / type",
+    "businessPlaceholder": "e.g. Cafe in Riyadh",
+    "phone": "Phone (WhatsApp)",
+    "phonePlaceholder": "05x xxx xxxx",
+    "message": "What do you need?",
+    "messagePlaceholder": "A website, POS system, inventory system…",
+    "submit": "Send via WhatsApp",
+    "emailInstead": "Or send by email",
+    "required": "Please add your name so we know who to reply to.",
+    "prefillIntro": "New inquiry from the SaudinTech website:"
+  },
+  "servicePage": {
+    "eyebrow": "Service",
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Services",
+    "featuresTitle": "What's included",
+    "outcomesTitle": "What you get",
+    "otherServices": "Other services",
+    "ctaTitle": "Want this for your business?",
+    "ctaText": "Book a free consultation — we'll scope it around your operation and give you a fixed-price quote.",
+    "ctaButton": "Book a Free Consultation"
+  },
+  "servicePages": {
+    "business-websites": {
+      "title": "Business Websites",
+      "tagline": "Professional websites that turn visitors into customers.",
+      "intro": "A fast, mobile-first website that represents your brand, ranks on Google, and works in both Arabic and English. Built to load quickly and convert — not just to look good.",
+      "features": [
+        "Custom design matched to your brand",
+        "Arabic & English with full right-to-left support",
+        "Optimized for Google search and fast loading",
+        "Mobile-first — works on every device",
+        "Contact forms, WhatsApp, and maps built in",
+        "Easy content updates after launch"
+      ],
+      "outcomes": [
+        "A credible online presence customers can find",
+        "More inquiries from search and social media"
+      ]
+    },
+    "ecommerce-stores": {
+      "title": "E-Commerce Stores",
+      "tagline": "Sell online with a store built around your products.",
+      "intro": "A complete online store with product management, secure payments, and order tracking — designed for Saudi customers and local payment methods, in Arabic and English.",
+      "features": [
+        "Product catalog and inventory management",
+        "Local payment gateways (Mada, Apple Pay, cards)",
+        "Order tracking and customer accounts",
+        "Discounts, offers, and coupons",
+        "Arabic & English storefront",
+        "Sales reports and analytics"
+      ],
+      "outcomes": [
+        "A new sales channel open 24/7",
+        "Orders and stock managed in one place"
+      ]
+    },
+    "web-applications": {
+      "title": "Custom Web Applications",
+      "tagline": "Turn your workflows into software that fits exactly how you work.",
+      "intro": "When off-the-shelf tools don't fit, we build web applications around your business logic — dashboards, portals, and internal systems tailored to your operation.",
+      "features": [
+        "Built around your specific workflows",
+        "Role-based access for your team",
+        "Dashboards and real-time reporting",
+        "Integrations with your existing tools",
+        "Secure, cloud-hosted, and scalable",
+        "Arabic & English interface"
+      ],
+      "outcomes": [
+        "Manual processes replaced by software",
+        "One system instead of scattered spreadsheets"
+      ]
+    },
+    "inventory-pos": {
+      "title": "Inventory & POS Systems",
+      "tagline": "Know your stock and sell faster, in real time.",
+      "intro": "Point-of-sale terminals and real-time inventory in one connected system — barcode scanning, low-stock alerts, and sales insights across all your branches.",
+      "features": [
+        "Point-of-sale for counter and mobile",
+        "Real-time stock across all branches",
+        "Barcode scanning and label printing",
+        "Automatic low-stock alerts",
+        "Supplier orders and purchase tracking",
+        "Daily sales and profit reports"
+      ],
+      "outcomes": [
+        "No more manual stock counts",
+        "Faster checkout and fewer stockouts"
+      ]
+    },
+    "crm-erp": {
+      "title": "CRM & ERP Solutions",
+      "tagline": "Connect sales, customers, and operations in one place.",
+      "intro": "Manage leads, customers, and your whole operation from a single platform — sales pipelines, follow-ups, and the finance, inventory, and HR modules your business needs.",
+      "features": [
+        "Sales pipeline and lead tracking",
+        "Automated follow-ups and reminders",
+        "Customer history and profiles",
+        "Finance, inventory, and HR modules",
+        "Team roles and permissions",
+        "Reports across the whole business"
+      ],
+      "outcomes": [
+        "No lead falls through the cracks",
+        "One connected view of the business"
+      ]
+    },
+    "mobile-apps": {
+      "title": "Mobile Applications",
+      "tagline": "Put your business in your customers' hands.",
+      "intro": "Native iOS and Android apps — for your customers to order and book, or for your team to manage operations on the go. Designed, built, and published to the app stores.",
+      "features": [
+        "Native iOS and Android",
+        "Customer-facing or staff-facing apps",
+        "Push notifications",
+        "Secure logins and payments",
+        "Published to the App Store and Google Play",
+        "Arabic & English"
+      ],
+      "outcomes": [
+        "A direct channel to your customers",
+        "More loyalty and repeat business"
+      ]
+    },
+    "business-automation": {
+      "title": "Business Automation",
+      "tagline": "Let software handle the repetitive work.",
+      "intro": "Automate the manual tasks that eat your team's time — reports, notifications, data entry, and multi-step workflows that run reliably without anyone remembering to press a button.",
+      "features": [
+        "Automated reports and notifications",
+        "Scheduled and trigger-based workflows",
+        "Data syncing between your tools",
+        "WhatsApp and email alerts",
+        "Fewer manual errors",
+        "Runs quietly in the background"
+      ],
+      "outcomes": [
+        "Hours saved every week",
+        "Consistent, error-free processes"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Building software that helps Saudi businesses grow.",
+    "columns": {
+      "company": { "title": "Company", "links": [ { "label": "About Us", "href": "#about" }, { "label": "Our Process", "href": "#process-wrapper" }, { "label": "What We Build", "href": "#showcase" }, { "label": "Contact", "href": "#contact" } ] },
+      "services": { "title": "Services", "links": [ { "label": "Business Websites", "href": "#services-wrapper" }, { "label": "E-Commerce", "href": "#services-wrapper" }, { "label": "Mobile Apps", "href": "#services-wrapper" }, { "label": "Automation", "href": "#services-wrapper" } ] },
+      "solutions": { "title": "Solutions", "links": [ { "label": "Inventory System", "href": "#solutions" }, { "label": "POS System", "href": "#solutions" }, { "label": "CRM System", "href": "#solutions" }, { "label": "ERP Solutions", "href": "#solutions" } ] },
+      "industries": { "title": "Industries", "links": [ { "label": "Cafes & Restaurants", "href": "#industries" }, { "label": "Retail Stores", "href": "#industries" }, { "label": "Clinics", "href": "#industries" }, { "label": "Gyms", "href": "#industries" } ] }
+    },
+    "rights": "All rights reserved.",
+    "location": "Riyadh, Saudi Arabia"
+  }
+}
