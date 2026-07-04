@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import LogoMark from "@/components/LogoMark";
-import { siteConfig } from "@/lib/site-config";
 import type { Dictionary } from "@/lib/dictionaries";
 
 export default function Navbar({
@@ -62,7 +61,9 @@ export default function Navbar({
           <span className="logo-mark">
             <LogoMark variant="dark" />
           </span>
-          <span className="logo-text">{siteConfig.name}</span>
+          <span className="logo-text">
+            saudin<span className="logo-tech">tech</span>
+          </span>
         </a>
         <button
           className="nav-toggle"

@@ -233,12 +233,15 @@ img { max-width: 100%; display: block; }
 }
 
 .logo-text {
-  font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-family: var(--font-logo), var(--font-display);
+  font-size: 1.4rem;
   font-weight: 800;
-  color: var(--deep-green);
-  letter-spacing: -0.02em;
+  color: #0f1f18;
+  letter-spacing: -0.035em;
+  text-transform: lowercase;
 }
+.logo-tech { color: var(--deep-green); }
+.footer-logo-text .logo-tech { color: #a7f3d0; }
 
 .nav-links {
   display: flex;

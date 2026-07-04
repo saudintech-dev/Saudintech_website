@@ -1,5 +1,4 @@
 import { ImageResponse } from "next/og";
-import { siteConfig } from "@/lib/site-config";
 
 export const alt = "SaudinTech — Business Software & Websites for Saudi Businesses";
 export const size = { width: 1200, height: 630 };
@@ -22,34 +21,35 @@ export default function OpenGraphImage() {
           alignItems: "center",
           background: "linear-gradient(135deg, #0a3d26 0%, #0a5c3a 55%, #0f7a4a 100%)",
           color: "#ffffff",
-          fontSize: 72,
-          fontWeight: 800,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
-          <svg width="96" height="96" viewBox="0 0 32 32" fill="none">
-            <rect width="32" height="32" rx="8" fill="#22c55e" />
+        <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
+          <svg width="104" height="104" viewBox="0 0 46 46">
+            <circle cx="23" cy="23" r="21" fill="#ffffff" />
             <path
-              d="M8 22L14 10L20 18L24 12"
-              stroke="#ffffff"
-              strokeWidth="2.5"
+              d="M17 15 L28 23 L17 31"
+              stroke="#0a5c3a"
+              strokeWidth="4.5"
               strokeLinecap="round"
               strokeLinejoin="round"
+              fill="none"
             />
-            <circle cx="24" cy="12" r="2" fill="#ffffff" />
           </svg>
-          <div style={{ display: "flex" }}>{siteConfig.name}</div>
+          <div style={{ display: "flex", fontSize: 88, fontWeight: 800, letterSpacing: -3 }}>
+            <span style={{ color: "#ffffff" }}>saudin</span>
+            <span style={{ color: "#a7f3d0" }}>tech</span>
+          </div>
         </div>
         <div
           style={{
             display: "flex",
-            marginTop: 32,
-            fontSize: 34,
-            fontWeight: 400,
+            marginTop: 40,
+            fontSize: 36,
+            fontWeight: 500,
             color: "#a7f3c9",
           }}
         >
-          Custom Websites &amp; Business Software — Saudi Arabia
+          Business Software &amp; Custom Websites — Saudi Arabia
         </div>
         <div
           style={{

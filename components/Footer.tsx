@@ -55,7 +55,9 @@ export default function Footer({
               <span className="logo-mark">
                 <LogoMark variant="light" />
               </span>
-              <span className="logo-text footer-logo-text">{siteConfig.name}</span>
+              <span className="logo-text footer-logo-text">
+                saudin<span className="logo-tech">tech</span>
+              </span>
             </a>
             <p className="footer-tagline">{footer.tagline}</p>
             {socials.length > 0 && (

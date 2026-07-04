@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Montserrat, Cairo } from "next/font/google";
+import { Inter, Montserrat, Cairo, Sora } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/dictionaries";
 import { siteConfig } from "@/lib/site-config";
@@ -8,6 +8,7 @@ import "@/styles/globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat", display: "swap" });
 const cairo = Cairo({ subsets: ["arabic", "latin"], variable: "--font-arabic", display: "swap" });
+const sora = Sora({ subsets: ["latin"], weight: ["800"], variable: "--font-logo", display: "swap" });
 
 export const dynamicParams = false;
 
@@ -72,7 +73,7 @@ export default async function RootLayout({
   const dict = getDictionary(locale);
 
   return (
-    <html lang={locale} dir={dir} className={`${inter.variable} ${montserrat.variable} ${cairo.variable}`}>
+    <html lang={locale} dir={dir} className={`${inter.variable} ${montserrat.variable} ${cairo.variable} ${sora.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           {dict.nav.skipToContent}
