@@ -3742,3 +3742,26 @@ html[dir="rtl"] .skip-link { left: auto; right: 8px; }
   .comparison-section { display: none; }
   .nav-link-process { display: none; }
 }
+
+/* ── Headline: GSAP masked line reveal ───────────────────
+   Each line is a clipping window; its inner span wipes up into view (animated
+   in Hero.tsx). white-space:nowrap keeps each line whole (no ragged sub-wrap)
+   on tablet/desktop; phones fall back to normal wrapping without the mask. */
+.hero-headline .hl-line {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 0.06em; /* breathing room so the mask never nips glyph edges */
+}
+.hero-headline .hl-inner { display: block; }
+
+@media (max-width: 767px) {
+  .hero-headline .hl-line { overflow: visible; white-space: normal; }
+}
+
+/* Footer logo: align the badge and wordmark on one centered row. */
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}

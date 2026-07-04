@@ -26,11 +26,12 @@ export default function Hero({ hero, mock }: { hero: Dictionary["hero"]; mock: D
       const stats = q("#heroStats");
       const visual = q("#heroVisual")[0];
       const badge = q("#heroBadge");
-      const headline = q("#heroHeadline");
       const sub = q("#heroSub");
       const actions = q("#heroActions");
 
-      gsap.set([badge, headline, sub, actions, stats], { opacity: 0, y: 30 });
+      const hlInners = q(".hl-inner");
+      gsap.set([badge, sub, actions, stats], { opacity: 0, y: 30 });
+      gsap.set(hlInners, { yPercent: 115 }); // masked line reveal — each line wipes up
       gsap.set(dashboard, { opacity: 0, scale: 0.88, y: 40 });
       gsap.set(metrics, { opacity: 0, y: 20 });
       gsap.set(chart, { opacity: 0, scaleY: 0, transformOrigin: "bottom" });
@@ -39,8 +40,9 @@ export default function Hero({ hero, mock }: { hero: Dictionary["hero"]; mock: D
 
       gsap
         .timeline({ delay: 0.1 })
-        .to([badge, headline], { opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: "power3.out" })
-        .to([sub, actions], { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power3.out" }, "-=0.3")
+        .to(badge, { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" })
+        .to(hlInners, { yPercent: 0, duration: 0.9, stagger: 0.12, ease: "power4.out" }, "-=0.35")
+        .to([sub, actions], { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power3.out" }, "-=0.5")
         .to(stats, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, "-=0.1")
         .to(dashboard, { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: "power4.out" }, "-=0.6")
         .to(metrics, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, "-=0.3")
@@ -94,11 +96,15 @@ export default function Hero({ hero, mock }: { hero: Dictionary["hero"]; mock: D
               {hero.badge}
             </div>
             <h1 className="hero-headline" id="heroHeadline">
-              <span className="headline-accent">{hero.headlineAccent}</span>
-              <br />
-              {hero.headline1}
-              <br />
-              {hero.headline2}
+              <span className="hl-line">
+                <span className="hl-inner headline-accent">{hero.headlineAccent}</span>
+              </span>
+              <span className="hl-line">
+                <span className="hl-inner">{hero.headline1}</span>
+              </span>
+              <span className="hl-line">
+                <span className="hl-inner">{hero.headline2}</span>
+              </span>
             </h1>
             <p className="hero-subheadline" id="heroSub">
               {hero.sub}
