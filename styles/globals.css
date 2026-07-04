@@ -3637,7 +3637,7 @@ html[dir="rtl"] .service-other-arrow { transform: scaleX(-1); }
    The hero vertically-centers its content in a full-height area, which on
    short screens lifts the headline up under the fixed navbar. Below ~800px
    tall we anchor the content just under the nav instead of centering it. */
-@media (max-height: 800px) {
+@media (max-height: 900px) {
   .hero { align-items: flex-start; }
   .hero-container { padding-top: 28px; padding-bottom: 40px; }
 }
@@ -3645,7 +3645,7 @@ html[dir="rtl"] .service-other-arrow { transform: scaleX(-1); }
 /* Short viewports: the pinned Services panel is 100vh sticky, so its content
    must fit in the visible height minus the fixed navbar. Compress the list
    so all 7 services stay visible on 14" laptop screens. */
-@media (max-height: 800px) {
+@media (max-height: 900px) {
   .services-left { padding: 92px 0 20px; }
   .services-main-title { font-size: 1.5rem; margin-bottom: 14px; }
   .services-left .section-tag { margin-bottom: 8px; }
@@ -3654,8 +3654,17 @@ html[dir="rtl"] .service-other-arrow { transform: scaleX(-1); }
   .sli-body p { font-size: 0.74rem; }
   .service-screens { max-height: calc(100vh - 200px); }
 
-  .process-header-fixed { padding-top: 92px; margin-bottom: 20px; }
-  .process-step-h { padding: 26px 26px; }
+  /* Process panel is a 100vh sticky pin: compress the header AND cards so the
+     whole card (not just its text) fits above the clip on laptop-height screens. */
+  .process-header-fixed { padding-top: 78px; margin-bottom: 10px; }
+  .process-header-fixed .section-title { font-size: 1.7rem; }
+  .process-header-fixed .section-tag { margin-bottom: 6px; }
+  .process-progress-bar { margin-bottom: 24px; }
+  .psh-num { font-size: 1.7rem; }
+  .psh-icon { width: 42px; height: 42px; }
+  .process-step-h { padding: 20px 22px; gap: 9px; }
+  .process-step-h h3 { font-size: 1rem; }
+  .process-step-h p { font-size: 0.82rem; line-height: 1.5; }
 }
 
 /* Skip-to-content link — hidden until focused by keyboard users (a11y). */
@@ -3725,12 +3734,12 @@ html[dir="rtl"] .skip-link { left: auto; right: 8px; }
 
 /* The "SCROLL" hint overlaps hero content on stacked/short layouts — show it
    only on the tall two-column desktop hero. */
-@media (max-width: 900px), (max-height: 800px) {
+@media (max-width: 900px), (max-height: 900px) {
   .scroll-indicator { display: none; }
 }
 
 /* Pinned Process panel needs breathing room at the bottom on short laptops. */
-@media (max-height: 800px) {
+@media (max-height: 900px) {
   .process-pinned { padding-bottom: 56px; }
   .process-step-h { width: 300px; }
 }

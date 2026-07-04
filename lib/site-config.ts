@@ -5,8 +5,9 @@
 export const siteConfig = {
   name: "SaudinTech",
 
-  // TODO: replace with your custom domain once purchased (e.g. "https://saudintech.sa")
-  url: "https://saudintech.vercel.app",
+  // Production canonical origin. saudintech.com redirects to www, so www is canonical.
+  // Drives metadataBase, canonical tags, hreflang, sitemap, robots, OG image, JSON-LD.
+  url: "https://www.saudintech.com",
 
   email: "saudintech@gmail.com",
   phoneDisplay: "+966 55 494 8070",
