@@ -78,7 +78,11 @@ export default function Navbar({
         <ul className="nav-links" id="navMenu" role="list">
           {links.map((link) => (
             <li key={link.href + link.label}>
-              <a href={link.href} className="nav-link" onClick={() => setOpen(false)}>
+              <a
+                href={link.href}
+                className={`nav-link${link.href.includes("process") ? " nav-link-process" : ""}`}
+                onClick={() => setOpen(false)}
+              >
                 {link.label}
               </a>
             </li>

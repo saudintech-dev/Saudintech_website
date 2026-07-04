@@ -85,7 +85,7 @@ export default function Hero({ hero, mock }: { hero: Dictionary["hero"]; mock: D
 
   return (
     <div className="hero-pin-wrapper" id="home" ref={root}>
-      <section className="hero" aria-label={hero.headline1 + " " + hero.headlineAccent}>
+      <section className="hero" aria-label={`${hero.headlineAccent} ${hero.headline1} ${hero.headline2}`}>
         <div className="hero-bg-grid" aria-hidden="true"></div>
         <div className="hero-container">
           <div className="hero-content">
@@ -94,9 +94,9 @@ export default function Hero({ hero, mock }: { hero: Dictionary["hero"]; mock: D
               {hero.badge}
             </div>
             <h1 className="hero-headline" id="heroHeadline">
-              {hero.headline1}
-              <br />
               <span className="headline-accent">{hero.headlineAccent}</span>
+              <br />
+              {hero.headline1}
               <br />
               {hero.headline2}
             </h1>

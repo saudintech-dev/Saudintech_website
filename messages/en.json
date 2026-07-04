@@ -25,7 +25,7 @@
   },
   "hero": {
     "badge": "Software Agency — Riyadh, Saudi Arabia",
-    "headline1": "Custom Websites &",
+    "headline1": "& Custom Websites",
     "headlineAccent": "Business Software",
     "headline2": "for Saudi Businesses",
     "sub": "We help local businesses digitize their operations through custom websites, software systems, and automation solutions designed for growth.",
@@ -34,7 +34,7 @@
     "badges": [
       { "title": "Free Consultation", "sub": "No commitment to start" },
       { "title": "Fixed-Price Quotes", "sub": "Agreed before we begin" },
-      { "title": "You Own the Code", "sub": "Registered in your name" }
+      { "title": "Long-Term Support", "sub": "We stay after launch" }
     ],
     "scroll": "Scroll"
   },

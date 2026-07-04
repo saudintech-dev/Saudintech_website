@@ -350,12 +350,16 @@ img { max-width: 100%; display: block; }
 
 .hero-headline {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  /* Lower vw factor keeps the big 3.6rem on wide/24" screens but shrinks the
+     headline on laptops/tablets so the 3 lines never sub-wrap into a cramped
+     5-line block (and stay short enough that the trust badges fit below). */
+  font-size: clamp(2.05rem, 3.4vw, 3.6rem);
   font-weight: 900;
   color: var(--deep-green);
-  line-height: 1.1;
+  line-height: 1.12;
   letter-spacing: -0.03em;
   margin-bottom: 24px;
+  text-wrap: balance;
 }
 
 .headline-accent {
@@ -3711,4 +3715,27 @@ html[dir="rtl"] .skip-link { left: auto; right: 8px; }
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 10px;
+}
+
+/* ── Mobile / short-screen refinements (round 2) ─────────
+   Fixes from real-device testing on 14" laptop + phone. */
+
+/* The "SCROLL" hint overlaps hero content on stacked/short layouts — show it
+   only on the tall two-column desktop hero. */
+@media (max-width: 900px), (max-height: 800px) {
+  .scroll-indicator { display: none; }
+}
+
+/* Pinned Process panel needs breathing room at the bottom on short laptops. */
+@media (max-height: 800px) {
+  .process-pinned { padding-bottom: 56px; }
+  .process-step-h { width: 300px; }
+}
+
+/* Trim mobile length: hide the two most supplementary sections on phones
+   (kept in the DOM for SEO; desktop unaffected). Re-enable by deleting this. */
+@media (max-width: 640px) {
+  .process-pin-wrapper,
+  .comparison-section { display: none; }
+  .nav-link-process { display: none; }
 }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 46">
+  <circle cx="23" cy="23" r="21" fill="#ffffff"></circle>
+  <path d="M17 15 L28 23 L17 31" stroke="#0a5c3a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  <text x="56" y="32" font-family="Sora, Arial, sans-serif" font-weight="800" font-size="28" letter-spacing="-1.1" fill="#ffffff">saudin<tspan fill="#a7f3d0">tech</tspan></text>
+</svg>
