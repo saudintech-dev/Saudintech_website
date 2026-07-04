@@ -1986,11 +1986,12 @@ img { max-width: 100%; display: block; }
 .quote-card {
   background: var(--white);
   border-radius: var(--radius-xl);
-  padding: 30px 30px 24px;
+  padding: 34px 30px;
   box-shadow: var(--shadow-xl);
-  min-height: 400px;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
+  justify-content: center; /* balance the whole card top-to-bottom */
 }
 
 .quote-eyebrow {
@@ -2030,12 +2031,12 @@ img { max-width: 100%; display: block; }
 }
 
 .quote-body {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   animation: quoteIn 0.38s ease;
 }
-.quote-body--center { justify-content: center; align-items: center; }
+.quote-body--center { align-items: center; }
 
 @keyframes quoteIn {
   from { opacity: 0; transform: translateY(14px); }
