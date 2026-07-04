@@ -310,20 +310,37 @@
     "whatsappBtn": "Contact on WhatsApp",
     "trust": ["Free consultation call", "No commitment required", "Response within 24 hours"]
   },
-  "contactForm": {
-    "heading": "Tell us about your project",
-    "name": "Your name",
-    "namePlaceholder": "e.g. Abdullah",
-    "business": "Business / type",
-    "businessPlaceholder": "e.g. Cafe in Riyadh",
-    "phone": "Phone (WhatsApp)",
-    "phonePlaceholder": "5xx xxx xxx",
-    "message": "What do you need?",
-    "messagePlaceholder": "A website, POS system, inventory system…",
-    "submit": "Send via WhatsApp",
-    "emailInstead": "Or send by email",
-    "required": "Please add your name so we know who to reply to.",
-    "prefillIntro": "New inquiry from the SaudinTech website:"
+  "quoteForm": {
+    "eyebrow": "One question at a time",
+    "step": "Step",
+    "of": "of",
+    "back": "Back",
+    "steps": [
+      {
+        "question": "What do you need?",
+        "options": ["Website", "Online Store", "POS & Inventory", "CRM / ERP", "Mobile App", "Something else"]
+      },
+      {
+        "question": "What kind of business?",
+        "options": ["Cafe / Restaurant", "Retail Shop", "Clinic", "Services", "Other"]
+      }
+    ],
+    "contactStep": {
+      "question": "Where do we send it?",
+      "nameLabel": "Your name",
+      "namePlaceholder": "e.g. Abdullah",
+      "phoneLabel": "WhatsApp number",
+      "phonePlaceholder": "5xx xxx xxx",
+      "required": "Add your WhatsApp number so we can send your quote.",
+      "submit": "Get my quote",
+      "emailInstead": "Or send by email"
+    },
+    "done": {
+      "title": "Done — your quote is on its way.",
+      "text": "We'll message you on WhatsApp shortly.",
+      "again": "Start over"
+    },
+    "prefillIntro": "New quote request from the SaudinTech website:"
   },
   "servicePage": {
     "eyebrow": "Service",

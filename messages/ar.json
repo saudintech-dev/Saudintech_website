@@ -310,20 +310,37 @@
     "whatsappBtn": "تواصل عبر واتساب",
     "trust": ["مكالمة استشارية مجانية", "بدون أي التزام", "رد خلال 24 ساعة"]
   },
-  "contactForm": {
-    "heading": "حدّثنا عن مشروعك",
-    "name": "الاسم",
-    "namePlaceholder": "مثال: عبدالله",
-    "business": "النشاط / النوع",
-    "businessPlaceholder": "مثال: مقهى في الرياض",
-    "phone": "الجوال (واتساب)",
-    "phonePlaceholder": "5xx xxx xxx",
-    "message": "ماذا تحتاج؟",
-    "messagePlaceholder": "موقع إلكتروني، نظام نقاط بيع، نظام مخزون…",
-    "submit": "أرسل عبر واتساب",
-    "emailInstead": "أو أرسل عبر البريد الإلكتروني",
-    "required": "من فضلك أضف اسمك لنعرف بمن نرد.",
-    "prefillIntro": "استفسار جديد من موقع SaudinTech:"
+  "quoteForm": {
+    "eyebrow": "سؤال واحد في كل مرة",
+    "step": "خطوة",
+    "of": "من",
+    "back": "رجوع",
+    "steps": [
+      {
+        "question": "ماذا تحتاج؟",
+        "options": ["موقع إلكتروني", "متجر إلكتروني", "نقاط بيع ومخزون", "CRM / ERP", "تطبيق جوال", "شيء آخر"]
+      },
+      {
+        "question": "ما نوع نشاطك؟",
+        "options": ["مقهى / مطعم", "متجر تجزئة", "عيادة", "خدمات", "أخرى"]
+      }
+    ],
+    "contactStep": {
+      "question": "أين نرسله لك؟",
+      "nameLabel": "الاسم",
+      "namePlaceholder": "مثال: عبدالله",
+      "phoneLabel": "رقم واتساب",
+      "phonePlaceholder": "5xx xxx xxx",
+      "required": "أضف رقم واتساب لنرسل لك عرضك.",
+      "submit": "احصل على عرضك",
+      "emailInstead": "أو أرسل عبر البريد الإلكتروني"
+    },
+    "done": {
+      "title": "تم — عرضك في الطريق إليك.",
+      "text": "سنراسلك على واتساب قريبًا.",
+      "again": "ابدأ من جديد"
+    },
+    "prefillIntro": "طلب عرض سعر جديد من موقع SaudinTech:"
   },
   "servicePage": {
     "eyebrow": "خدمة",

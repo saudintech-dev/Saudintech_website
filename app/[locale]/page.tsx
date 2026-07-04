@@ -70,7 +70,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <Commitments commitments={dict.commitments} />
         <About about={dict.about} />
         <Faq faq={dict.faq} />
-        <CtaSection cta={dict.cta} contactForm={dict.contactForm} />
+        <CtaSection cta={dict.cta} quoteForm={dict.quoteForm} />
       </main>
       <Footer footer={dict.footer} />
     </>

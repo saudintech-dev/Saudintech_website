@@ -1,14 +1,14 @@
 import type { Dictionary } from "@/lib/dictionaries";
 import { siteConfig } from "@/lib/site-config";
 import { IconMail, IconWhatsApp, IconCheck } from "@/components/icons";
-import ContactForm from "@/components/ContactForm";
+import QuoteForm from "@/components/QuoteForm";
 
 export default function CtaSection({
   cta,
-  contactForm,
+  quoteForm,
 }: {
   cta: Dictionary["cta"];
-  contactForm: Dictionary["contactForm"];
+  quoteForm: Dictionary["quoteForm"];
 }) {
   return (
     <section id="contact" className="cta-section section" aria-label={cta.aria}>
@@ -49,7 +49,7 @@ export default function CtaSection({
           </div>
 
           <div className="cta-form-wrap gsap-fade-right">
-            <ContactForm t={contactForm} />
+            <QuoteForm t={quoteForm} />
           </div>
         </div>
       </div>
